@@ -4,7 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
 
-def weird_division(n, d):
+def division_function(n, d):
     if d:
         return n / d
     elif n == 0 and d == 0:
@@ -61,11 +61,11 @@ def validate_model(model, X, Y):
             FN = conf_matrix[1][0]
             TP = conf_matrix[1][1]
 
-            accuracy = (weird_division((TP + TN), (TP + TN + FP + FN))) * 100
-            recall = weird_division(TP, (TP + FN)) * 100  # recall
-            specificity = weird_division(TN, (TN + FP)) * 100
-            precision = weird_division(TP, (TP + FP)) * 100
-            f1_score = weird_division(2 * (recall * precision), (recall + precision))
+            accuracy = (division_function((TP + TN), (TP + TN + FP + FN))) * 100
+            recall = division_function(TP, (TP + FN)) * 100  # recall
+            specificity = division_function(TN, (TN + FP)) * 100
+            precision = division_function(TP, (TP + FP)) * 100
+            f1_score = division_function(2 * (recall * precision), (recall + precision))
 
             # sum it up
             acc_total += accuracy
