@@ -8,7 +8,9 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
-
+from imblearn.over_sampling import SMOTE
+import os
+from evatluation_tools_transcripts import validate_model, evaluate_model
 from feature_reduction import (
     feature_reduction_lda,
     feature_reduction_mrmr,
@@ -20,9 +22,10 @@ from grid_search import (
     get_best_param_RF,
     get_best_param_SVC,
 )
-from evaluation_tools import validate_model, evaluate_model
-from imblearn.over_sampling import SMOTE
 import sys
+
+path = "/Users/athena.kam/Documents/Thesis/codebase/thesis-2023-athena"
+os.chdir(path)
 
 
 def extra_print(text):
@@ -52,12 +55,15 @@ def read_and_split(
 
         X = df.drop(columns=non_embeddings_headers)
         Y = df["classification"]
-        X = MinMaxScaler().fit_transform(X)  # Normalise
+        X = MinMaxScaler().fit_transform(X)
 
         # Train-test split
-        x_train, x_test, y_train, y_test = train_test_split(
-            X, Y, test_size=0.30, random_state=random_state
+        x_index = range(len(X))
+        x_train_index, x_test_index, y_train, y_test = train_test_split(
+            x_index, Y, test_size=0.30, random_state=random_state
         )
+        x_train = pd.DataFrame(X).iloc[x_train_index]
+        x_test = pd.DataFrame(X).iloc[x_test_index]
 
         # Oversample minority group
         sm = SMOTE(random_state=12)
@@ -94,7 +100,7 @@ def read_and_split(
         x_test = sc.transform(x_test)
         pd.DataFrame(x_train)
 
-    return x_train, x_test, y_train, y_test
+    return x_train, x_test, y_train, y_test, x_test_index, df
 
 
 def train_model(model_name: str, grid_search: bool, model_weights, x_train, y_train):
@@ -151,9 +157,9 @@ def train_test_model(
     isTranscript: bool = True,
     grid_search: bool = True,
     model_weights: dict = {},
-    random_state: int = 0,
+    random_state: int = 42,
 ):
-    x_train, x_test, y_train, y_test = read_and_split(
+    x_train, x_test, y_train, y_test, x_test_index, df = read_and_split(
         filename=filename,
         isTranscript=isTranscript,
         reduce=reduce,
@@ -174,7 +180,7 @@ def train_test_model(
     accuracy, specificiy, recall, precision, f1_score = validate_model(
         model, pd.DataFrame(x_train), pd.DataFrame(y_train)
     )
-    extra_print("Validate model:")
+
     extra_print(
         f"\tAverage Accuracy: {accuracy} \n\
       Average Specificity: {specificiy} \n\
@@ -186,10 +192,16 @@ def train_test_model(
 
     # Test with test data
     accuracy, specificiy, recall, precision, f1_score = evaluate_model(
-        model=model, x_train=x_train, x_test=x_test, y_train=y_train, y_test=y_test
+        model=model,
+        x_train=x_train,
+        x_test=x_test,
+        y_train=y_train,
+        y_test=y_test,
+        x_test_index=x_test_index,
+        df=df,
     )
-    print("___________________")
-    extra_print("Evaluate model:")
+    extra_print("___________________")
+    extra_print("Evaluate model")
     extra_print(
         f"\tAccuracy: {accuracy} \n\
     Specificity: {specificiy} \n\

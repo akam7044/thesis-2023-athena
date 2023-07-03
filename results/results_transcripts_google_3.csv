@@ -1,0 +1,1008 @@
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :svc
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('svc', SVC(C=1, gamma=0.1))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'svc': SVC(C=1, gamma=0.1), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'svc__C': 1, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.1, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 88.0952380952381 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 88.33333333333333
+      Average Precision:92.0
+      Average F1 score 89.33333333333334
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 0.0 
+    Recall: 100.0
+    Precision:0
+    F1 score 0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :svc
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('svc', SVC(C=10, gamma=1))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'svc': SVC(C=10, gamma=1), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'svc__C': 10, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 1, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 64.76190476190476 
+      Average Specificity: 80.0 
+      Average Recall: 51.666666666666664
+      Average Precision:68.0
+      Average F1 score 54.0
+      
+___________________
+Evaluate model
+	Accuracy: 18.181818181818183 
+    Specificity: 20.0 
+    Recall: 16.666666666666664
+    Precision:16.666666666666664
+    F1 score 18.18181818181818
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :svc
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 1, 'kernel': 'poly', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 45.45454545454545 
+    Specificity: 40.0 
+    Recall: 50.0
+    Precision:40.0
+    F1 score 40.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :lr
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.9)), ('lr', LogisticRegression(C=100, penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': PCA(n_components=0.9), 'lr': LogisticRegression(C=100, penalty='l1', solver='liblinear'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.9, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 87.61904761904763 
+      Average Specificity: 79.99999999999997 
+      Average Recall: 95.0
+      Average Precision:85.0
+      Average F1 score 89.28571428571429
+      
+___________________
+Evaluate model
+	Accuracy: 36.36363636363637 
+    Specificity: 20.0 
+    Recall: 50.0
+    Precision:25.0
+    F1 score 22.22222222222222
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :lr
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('lr', LogisticRegression(C=100, penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'lr': LogisticRegression(C=100, penalty='l1', solver='liblinear'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 59.04761904761904 
+      Average Specificity: 79.99999999999999 
+      Average Recall: 39.99999999999999
+      Average Precision:43.33333333333333
+      Average F1 score 40.76190476190476
+      
+___________________
+Evaluate model
+	Accuracy: 18.181818181818183 
+    Specificity: 20.0 
+    Recall: 16.666666666666664
+    Precision:16.666666666666664
+    F1 score 18.18181818181818
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :lr
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 100, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 45.45454545454545 
+    Specificity: 40.0 
+    Recall: 50.0
+    Precision:40.0
+    F1 score 40.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :knn
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=11, weights='distance'))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=11, weights='distance'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 11, 'knn__p': 2, 'knn__weights': 'distance'}
+	Average Accuracy: 81.42857142857142 
+      Average Specificity: 88.33333333333333 
+      Average Recall: 76.66666666666666
+      Average Precision:90.0
+      Average F1 score 77.61904761904762
+      
+___________________
+Evaluate model
+	Accuracy: 45.45454545454545 
+    Specificity: 0.0 
+    Recall: 83.33333333333334
+    Precision:0.0
+    F1 score 0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :knn
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=3, weights='distance'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=3, weights='distance'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 3, 'knn__p': 2, 'knn__weights': 'distance'}
+	Average Accuracy: 68.57142857142856 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 51.666666666666664
+      Average Precision:90.0
+      Average F1 score 61.428571428571416
+      
+___________________
+Evaluate model
+	Accuracy: 18.181818181818183 
+    Specificity: 20.0 
+    Recall: 16.666666666666664
+    Precision:16.666666666666664
+    F1 score 18.18181818181818
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :knn
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 45.45454545454545 
+    Specificity: 60.0 
+    Recall: 33.33333333333333
+    Precision:42.857142857142854
+    F1 score 49.99999999999999
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :rf
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('rf', RandomForestClassifier(max_depth=5))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'rf': RandomForestClassifier(max_depth=5), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 5, 'rf__max_features': 'sqrt', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 68.83597883597884 
+      Average Specificity: 57.22222222222221 
+      Average Recall: 77.22222222222223
+      Average Precision:70.55555555555556
+      Average F1 score 70.16931216931216
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 80.0 
+    Recall: 50.0
+    Precision:57.14285714285714
+    F1 score 66.66666666666666
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :rf
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('rf', RandomForestClassifier(criterion='entropy', max_depth=4, max_features='auto'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'rf': RandomForestClassifier(criterion='entropy', max_depth=4, max_features='auto'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'entropy', 'rf__max_depth': 4, 'rf__max_features': 'auto', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 67.5132275132275 
+      Average Specificity: 79.25925925925925 
+      Average Recall: 57.592592592592595
+      Average Precision:77.77777777777777
+      Average F1 score 61.93650793650792
+      
+___________________
+Evaluate model
+	Accuracy: 18.181818181818183 
+    Specificity: 20.0 
+    Recall: 16.666666666666664
+    Precision:16.666666666666664
+    F1 score 18.18181818181818
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_embeddings_transformed.csv
+Model :rf
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 4, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 99.36507936507935 
+      Average Specificity: 98.51851851851852 
+      Average Recall: 100.0
+      Average Precision:99.11111111111111
+      Average F1 score 99.50617283950618
+      
+___________________
+Evaluate model
+	Accuracy: 36.36363636363637 
+    Specificity: 20.0 
+    Recall: 50.0
+    Precision:25.0
+    F1 score 22.22222222222222
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :svc
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('svc', SVC(C=1, gamma=0.1))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'svc': SVC(C=1, gamma=0.1), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'svc__C': 1, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.1, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 83.80952380952381 
+      Average Specificity: 80.0 
+      Average Recall: 86.66666666666666
+      Average Precision:81.0
+      Average F1 score 82.92063492063492
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 40.0 
+    Recall: 83.33333333333334
+    Precision:66.66666666666666
+    F1 score 49.99999999999999
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :svc
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('svc', SVC(C=0.1, gamma=1, kernel='sigmoid'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'svc': SVC(C=0.1, gamma=1, kernel='sigmoid'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'svc__C': 0.1, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 1, 'svc__kernel': 'sigmoid', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 77.61904761904762 
+      Average Specificity: 79.99999999999997 
+      Average Recall: 76.66666666666666
+      Average Precision:81.66666666666666
+      Average F1 score 77.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 81.81818181818183 
+    Specificity: 100.0 
+    Recall: 66.66666666666666
+    Precision:71.42857142857143
+    F1 score 83.33333333333333
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :svc
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 1, 'kernel': 'poly', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 40.0 
+    Recall: 66.66666666666666
+    Precision:50.0
+    F1 score 44.44444444444444
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :lr
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('lr', LogisticRegression(C=100, solver='newton-cg'))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'lr': LogisticRegression(C=100, solver='newton-cg'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l2', 'lr__random_state': None, 'lr__solver': 'newton-cg', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 78.0952380952381 
+      Average Specificity: 68.33333333333333 
+      Average Recall: 88.33333333333333
+      Average Precision:73.33333333333333
+      Average F1 score 79.76190476190476
+      
+___________________
+Evaluate model
+	Accuracy: 81.81818181818183 
+    Specificity: 80.0 
+    Recall: 83.33333333333334
+    Precision:80.0
+    F1 score 80.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :lr
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('lr', LogisticRegression(penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'lr': LogisticRegression(penalty='l1', solver='liblinear'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'lr__C': 1.0, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 77.61904761904762 
+      Average Specificity: 79.99999999999997 
+      Average Recall: 76.66666666666666
+      Average Precision:81.66666666666666
+      Average F1 score 77.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 81.81818181818183 
+    Specificity: 100.0 
+    Recall: 66.66666666666666
+    Precision:71.42857142857143
+    F1 score 83.33333333333333
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :lr
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 100, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 40.0 
+    Recall: 66.66666666666666
+    Precision:50.0
+    F1 score 44.44444444444444
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :knn
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=11, weights='distance'))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=11, weights='distance'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 11, 'knn__p': 2, 'knn__weights': 'distance'}
+	Average Accuracy: 68.57142857142856 
+      Average Specificity: 44.999999999999986 
+      Average Recall: 93.33333333333333
+      Average Precision:63.0
+      Average F1 score 74.68253968253967
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 100.0 
+    Recall: 33.33333333333333
+    Precision:55.55555555555556
+    F1 score 71.42857142857143
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :knn
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=11))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=11), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 11, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 77.61904761904762 
+      Average Specificity: 79.99999999999997 
+      Average Recall: 76.66666666666666
+      Average Precision:81.66666666666666
+      Average F1 score 77.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 60.0 
+    Recall: 66.66666666666666
+    Precision:60.0
+    F1 score 60.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :knn
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'manhattan', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 3, 'p': 2, 'weights': 'uniform'}
+	Average Accuracy: 96.66666666666667 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 100.0
+      Average Precision:95.0
+      Average F1 score 97.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 80.0 
+    Recall: 50.0
+    Precision:57.14285714285714
+    F1 score 66.66666666666666
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :rf
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('rf', RandomForestClassifier(max_depth=5, max_features='auto', n_estimators=200))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'rf': RandomForestClassifier(max_depth=5, max_features='auto', n_estimators=200), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 5, 'rf__max_features': 'auto', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 200, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 66.71957671957671 
+      Average Specificity: 47.77777777777777 
+      Average Recall: 85.37037037037037
+      Average Precision:62.81481481481481
+      Average F1 score 71.7936507936508
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 40.0 
+    Recall: 66.66666666666666
+    Precision:50.0
+    F1 score 44.44444444444444
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :rf
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('rf', RandomForestClassifier(max_depth=6, max_features='auto'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'rf': RandomForestClassifier(max_depth=6, max_features='auto'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 6, 'rf__max_features': 'auto', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 64.76190476190476 
+      Average Specificity: 73.33333333333333 
+      Average Recall: 56.666666666666664
+      Average Precision:68.33333333333333
+      Average F1 score 59.80952380952382
+      
+___________________
+Evaluate model
+	Accuracy: 81.81818181818183 
+    Specificity: 100.0 
+    Recall: 66.66666666666666
+    Precision:71.42857142857143
+    F1 score 83.33333333333333
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_embeddings_transformed.csv
+Model :rf
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 4, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 200, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 92.91005291005291 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 92.96296296296296
+      Average Precision:95.0
+      Average F1 score 93.01587301587303
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 40.0 
+    Recall: 83.33333333333334
+    Precision:66.66666666666666
+    F1 score 49.99999999999999
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :svc
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('svc', SVC(C=1, gamma=0.1))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'svc': SVC(C=1, gamma=0.1), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'svc__C': 1, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.1, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 77.71825396825396 
+      Average Specificity: 78.66935483870968 
+      Average Recall: 76.83467741935485
+      Average Precision:78.27637721755369
+      Average F1 score 77.29974759632921
+      
+___________________
+Evaluate model
+	Accuracy: 68.75 
+    Specificity: 25.0 
+    Recall: 95.0
+    Precision:75.0
+    F1 score 37.5
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :svc
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('svc', SVC(C=0.1, gamma=0.001))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'svc': SVC(C=0.1, gamma=0.001), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'svc__C': 0.1, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.001, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 77.39583333333333 
+      Average Specificity: 70.56451612903226 
+      Average Recall: 84.375
+      Average Precision:74.95477329687856
+      Average F1 score 78.8947262782879
+      
+___________________
+Evaluate model
+	Accuracy: 62.5 
+    Specificity: 25.0 
+    Recall: 85.0
+    Precision:50.0
+    F1 score 33.333333333333336
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :svc
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'C': 1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 1, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+	Average Accuracy: 75.83829365079364 
+      Average Specificity: 74.2741935483871 
+      Average Recall: 77.3991935483871
+      Average Precision:75.251443001443
+      Average F1 score 76.175931375229
+      
+___________________
+Evaluate model
+	Accuracy: 62.5 
+    Specificity: 41.66666666666667 
+    Recall: 75.0
+    Precision:50.0
+    F1 score 45.45454545454545
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :lr
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('lr', LogisticRegression(C=10, solver='newton-cg'))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'lr': LogisticRegression(C=10, solver='newton-cg'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'lr__C': 10, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l2', 'lr__random_state': None, 'lr__solver': 'newton-cg', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 71.43353174603175 
+      Average Specificity: 63.608870967741936 
+      Average Recall: 79.31451612903226
+      Average Precision:68.7914067914068
+      Average F1 score 73.57575757575758
+      
+___________________
+Evaluate model
+	Accuracy: 62.5 
+    Specificity: 25.0 
+    Recall: 85.0
+    Precision:50.0
+    F1 score 33.333333333333336
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :lr
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('lr', LogisticRegression(C=100, penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'lr': LogisticRegression(C=100, penalty='l1', solver='liblinear'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 76.4484126984127 
+      Average Specificity: 70.50403225806451 
+      Average Recall: 82.5
+      Average Precision:73.85696830051668
+      Average F1 score 77.58917072273236
+      
+___________________
+Evaluate model
+	Accuracy: 65.625 
+    Specificity: 25.0 
+    Recall: 90.0
+    Precision:60.0
+    F1 score 35.294117647058826
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :lr
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'C': 10, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 73.92361111111111 
+      Average Specificity: 74.25403225806451 
+      Average Recall: 73.62903225806451
+      Average Precision:74.34794372294373
+      Average F1 score 73.86819932595088
+      
+___________________
+Evaluate model
+	Accuracy: 53.125 
+    Specificity: 33.33333333333333 
+    Recall: 65.0
+    Precision:36.36363636363637
+    F1 score 34.78260869565217
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :knn
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.9)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=1))], 'verbose': False, 'reducer': PCA(n_components=0.9), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=1), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.9, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 1, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 72.67361111111111 
+      Average Specificity: 58.528225806451616 
+      Average Recall: 86.85483870967741
+      Average Precision:67.80458259528027
+      Average F1 score 76.0884921018611
+      
+___________________
+Evaluate model
+	Accuracy: 65.625 
+    Specificity: 50.0 
+    Recall: 75.0
+    Precision:54.54545454545454
+    F1 score 52.173913043478265
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :knn
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=9))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=9), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 9, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 77.40079365079364 
+      Average Specificity: 72.37903225806451 
+      Average Recall: 82.5
+      Average Precision:75.13671599184975
+      Average F1 score 78.35206023048488
+      
+___________________
+Evaluate model
+	Accuracy: 65.625 
+    Specificity: 25.0 
+    Recall: 90.0
+    Precision:60.0
+    F1 score 35.294117647058826
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :knn
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 11, 'p': 2, 'weights': 'distance'}
+	Average Accuracy: 73.00595238095238 
+      Average Specificity: 62.298387096774185 
+      Average Recall: 83.75
+      Average Precision:69.03232353232355
+      Average F1 score 75.59467685323403
+      
+___________________
+Evaluate model
+	Accuracy: 53.125 
+    Specificity: 50.0 
+    Recall: 55.00000000000001
+    Precision:40.0
+    F1 score 44.44444444444444
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :rf
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.9)), ('rf', RandomForestClassifier(max_depth=7, n_estimators=500))], 'verbose': False, 'reducer': PCA(n_components=0.9), 'rf': RandomForestClassifier(max_depth=7, n_estimators=500), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.9, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 7, 'rf__max_features': 'sqrt', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 500, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 73.15806878306879 
+      Average Specificity: 73.51478494623656 
+      Average Recall: 72.89650537634408
+      Average Precision:73.02761970523645
+      Average F1 score 72.6205972351903
+      
+___________________
+Evaluate model
+	Accuracy: 59.375 
+    Specificity: 8.333333333333332 
+    Recall: 90.0
+    Precision:33.33333333333333
+    F1 score 13.333333333333334
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :rf
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('rf', RandomForestClassifier(criterion='entropy', max_depth=5, n_estimators=200))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'rf': RandomForestClassifier(criterion='entropy', max_depth=5, n_estimators=200), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'entropy', 'rf__max_depth': 5, 'rf__max_features': 'sqrt', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 200, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 76.28968253968253 
+      Average Specificity: 69.60125448028674 
+      Average Recall: 83.05555555555556
+      Average Precision:74.15751022117246
+      Average F1 score 77.85104571297886
+      
+___________________
+Evaluate model
+	Accuracy: 65.625 
+    Specificity: 25.0 
+    Recall: 90.0
+    Precision:60.0
+    F1 score 35.294117647058826
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_bert_sentence_embeddings_transformed.csv
+Model :rf
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 500, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 79.04706790123458 
+      Average Specificity: 76.7450716845878 
+      Average Recall: 81.43145161290323
+      Average Precision:78.11745486306403
+      Average F1 score 79.51892344518349
+      
+___________________
+Evaluate model
+	Accuracy: 65.625 
+    Specificity: 33.33333333333333 
+    Recall: 85.0
+    Precision:57.14285714285714
+    F1 score 42.10526315789473
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :svc
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.9)), ('svc', SVC(C=10, gamma=0.1))], 'verbose': False, 'reducer': PCA(n_components=0.9), 'svc': SVC(C=10, gamma=0.1), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.9, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'svc__C': 10, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.1, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 76.16567460317461 
+      Average Specificity: 79.95967741935485 
+      Average Recall: 72.5
+      Average Precision:78.21428571428571
+      Average F1 score 74.37897010792693
+      
+___________________
+Evaluate model
+	Accuracy: 68.75 
+    Specificity: 25.0 
+    Recall: 95.0
+    Precision:75.0
+    F1 score 37.5
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :svc
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('svc', SVC(C=100, gamma=0.01))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'svc': SVC(C=100, gamma=0.01), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'svc__C': 100, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.01, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 78.97321428571429 
+      Average Specificity: 81.1491935483871 
+      Average Recall: 76.85483870967741
+      Average Precision:80.04058441558442
+      Average F1 score 77.91305841709068
+      
+___________________
+Evaluate model
+	Accuracy: 59.375 
+    Specificity: 0.0 
+    Recall: 95.0
+    Precision:0.0
+    F1 score 0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :svc
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'C': 1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 1, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+	Average Accuracy: 79.91567460317461 
+      Average Specificity: 78.68951612903226 
+      Average Recall: 81.25
+      Average Precision:79.27339901477833
+      Average F1 score 79.8560055725721
+      
+___________________
+Evaluate model
+	Accuracy: 62.5 
+    Specificity: 50.0 
+    Recall: 70.0
+    Precision:50.0
+    F1 score 50.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :lr
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('lr', LogisticRegression(C=10, solver='newton-cg'))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'lr': LogisticRegression(C=10, solver='newton-cg'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'lr__C': 10, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l2', 'lr__random_state': None, 'lr__solver': 'newton-cg', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 73.92361111111111 
+      Average Specificity: 67.92338709677419 
+      Average Recall: 80.0
+      Average Precision:71.34544628662276
+      Average F1 score 75.14343105993109
+      
+___________________
+Evaluate model
+	Accuracy: 53.125 
+    Specificity: 33.33333333333333 
+    Recall: 65.0
+    Precision:36.36363636363637
+    F1 score 34.78260869565217
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :lr
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('lr', LogisticRegression(C=0.1, penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'lr': LogisticRegression(C=0.1, penalty='l1', solver='liblinear'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'lr__C': 0.1, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 66.0515873015873 
+      Average Specificity: 44.09274193548387 
+      Average Recall: 88.125
+      Average Precision:61.30680885972109
+      Average F1 score 72.10216810216811
+      
+___________________
+Evaluate model
+	Accuracy: 40.625 
+    Specificity: 16.666666666666664 
+    Recall: 55.00000000000001
+    Precision:18.181818181818183
+    F1 score 17.391304347826086
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :lr
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 78.95337301587303 
+      Average Specificity: 76.7741935483871 
+      Average Recall: 81.25
+      Average Precision:77.8092998955068
+      Average F1 score 79.20249365042716
+      
+___________________
+Evaluate model
+	Accuracy: 59.375 
+    Specificity: 41.66666666666667 
+    Recall: 70.0
+    Precision:45.45454545454545
+    F1 score 43.47826086956522
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :knn
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=1))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=1), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 1, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 73.30853174603175 
+      Average Specificity: 59.19354838709679 
+      Average Recall: 87.47983870967741
+      Average Precision:68.2445208312898
+      Average F1 score 76.62120437462903
+      
+___________________
+Evaluate model
+	Accuracy: 59.375 
+    Specificity: 41.66666666666667 
+    Recall: 70.0
+    Precision:45.45454545454545
+    F1 score 43.47826086956522
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :knn
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=19))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=19), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 19, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 66.0515873015873 
+      Average Specificity: 44.09274193548387 
+      Average Recall: 88.125
+      Average Precision:61.30680885972109
+      Average F1 score 72.10216810216811
+      
+___________________
+Evaluate model
+	Accuracy: 40.625 
+    Specificity: 16.666666666666664 
+    Recall: 55.00000000000001
+    Precision:18.181818181818183
+    F1 score 17.391304347826086
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :knn
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 17, 'p': 2, 'weights': 'distance'}
+	Average Accuracy: 77.08333333333333 
+      Average Specificity: 65.54435483870968 
+      Average Recall: 88.75
+      Average Precision:73.0909090909091
+      Average F1 score 79.77572526975513
+      
+___________________
+Evaluate model
+	Accuracy: 59.375 
+    Specificity: 50.0 
+    Recall: 65.0
+    Precision:46.15384615384615
+    F1 score 47.99999999999999
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :rf
+Reducer:pca
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('rf', RandomForestClassifier(max_depth=8))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'rf': RandomForestClassifier(max_depth=8), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 8, 'rf__max_features': 'sqrt', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 72.05963403880071 
+      Average Specificity: 64.79838709677419 
+      Average Recall: 79.36155913978493
+      Average Precision:69.09872437014005
+      Average F1 score 73.68193712254198
+      
+___________________
+Evaluate model
+	Accuracy: 59.375 
+    Specificity: 41.66666666666667 
+    Recall: 70.0
+    Precision:45.45454545454545
+    F1 score 43.47826086956522
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :rf
+Reducer:lda
+Sentence?:True
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('rf', RandomForestClassifier(max_depth=4, max_features='log2'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'rf': RandomForestClassifier(max_depth=4, max_features='log2'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 4, 'rf__max_features': 'log2', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 65.49603174603175 
+      Average Specificity: 44.856630824372765 
+      Average Recall: 86.25
+      Average Precision:61.08366095078841
+      Average F1 score 71.23626407610998
+      
+___________________
+Evaluate model
+	Accuracy: 40.625 
+    Specificity: 16.666666666666664 
+    Recall: 55.00000000000001
+    Precision:18.181818181818183
+    F1 score 17.391304347826086
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_google_gpt_sentence_embeddings_transformed.csv
+Model :rf
+Reducer:mrmr
+Sentence?:True
+___________________________________________
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 7, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 78.47001763668429 
+      Average Specificity: 79.41756272401432 
+      Average Recall: 77.63888888888889
+      Average Precision:79.30187104555063
+      Average F1 score 77.90339338871468
+      
+___________________
+Evaluate model
+	Accuracy: 65.625 
+    Specificity: 41.66666666666667 
+    Recall: 80.0
+    Precision:55.55555555555556
+    F1 score 47.61904761904763
+    

@@ -8,6 +8,7 @@ from sklearn.linear_model import Lasso, LogisticRegression
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from mrmr import mrmr_classif
+from sklearn.preprocessing import MinMaxScaler
 
 
 def feature_reduction_pca(X, variance: float):
@@ -49,7 +50,8 @@ def feature_reduction_lda(X_train, y_train):
     return X_train
 
 
-def feature_reduction_mrmr(X, Y, n_components):
-    selected_components = mrmr_classif(X=X, y=Y, K=n_components)
-    x_train = pd.DataFrame(X).loc[:, selected_components].values
-    return x_train
+def feature_reduction_mrmr(x_train, x_test, y_train, n_components):
+    selected_components = mrmr_classif(X=x_train, y=y_train, K=n_components)
+    x_train = pd.DataFrame(x_train).loc[:, selected_components]
+    x_test = pd.DataFrame(x_test).loc[:, selected_components]
+    return x_train, x_test

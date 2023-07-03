@@ -2,6 +2,7 @@ from sklearn.model_selection import StratifiedKFold, KFold
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
+import pandas as pd
 
 
 def division_function(n, d):
@@ -96,7 +97,7 @@ def validate_model(model, X, Y):
     )
 
 
-def evaluate_model(model, x_train, x_test, y_train, y_test):
+def evaluate_model(model, x_train, x_test, y_train, y_test, x_test_index, df):
     sc = MinMaxScaler()
     x_train = sc.fit_transform(x_train)
     x_test = sc.transform(x_test)
@@ -104,7 +105,14 @@ def evaluate_model(model, x_train, x_test, y_train, y_test):
     model.fit(x_train, y_train)
     y_pred = model.predict(x_test)
 
-    conf_matrix = confusion_matrix(y_test, y_pred)
+    ids = df.iloc[x_test_index]["id"]
+    data = {"id": ids, "y_pred": y_pred, "y_test": y_test}
+    data_df = pd.DataFrame(data)
+    data_df_group = data_df.groupby(by=["id"], sort=False).mean().round()
+    y_pred_2 = data_df_group["y_pred"]
+    y_test_2 = data_df_group["y_test"]
+
+    conf_matrix = confusion_matrix(y_test_2, y_pred_2)
     TN = conf_matrix[0][0]
     FP = conf_matrix[0][1]
     FN = conf_matrix[1][0]

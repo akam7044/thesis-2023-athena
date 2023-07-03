@@ -1,0 +1,744 @@
+___________________________________________
+Filename:MDVR_all_features_chunks_SpontaneousDialogue.csv
+Model :svc
+Random State: 0
+___________________________________________
+	Average Accuracy: 89.79819819819821 
+      Average Specificity: 93.04878048780488 
+      Average Recall: 86.0
+      Average Precision:91.34337444655282
+      Average F1 score 88.51638557520911
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 88.2054054054054 
+      Average Specificity: 90.17718715393133 
+      Average Recall: 85.58467741935485
+      Average Precision:86.82254934535247
+      Average F1 score 86.04774460512165
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 90.07927927927926 
+      Average Specificity: 93.2171893147503 
+      Average Recall: 86.23885918003565
+      Average Precision:91.223223615465
+      Average F1 score 88.5936285936286
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 91.42342342342343 
+      Average Specificity: 95.0 
+      Average Recall: 87.31092436974791
+      Average Precision:93.8352475193246
+      Average F1 score 90.23655674390969
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 87.93873873873875 
+      Average Specificity: 90.92307692307692 
+      Average Recall: 84.57142857142858
+      Average Precision:89.27035574473905
+      Average F1 score 86.74000878348706
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 88.2198198198198 
+      Average Specificity: 92.1219512195122 
+      Average Recall: 83.52941176470588
+      Average Precision:89.88364055299539
+      Average F1 score 86.51821728995643
+      
+Accuracy list: [91.92546583850931, 86.33540372670807, 85.71428571428571, 88.19875776397515, 88.19875776397515, 88.81987577639751]
+Recall list: [93.02325581395348, 91.8918918918919, 95.1219512195122, 88.63636363636364, 94.44444444444444, 89.41176470588236]
+Specificity list: [90.66666666666666, 81.60919540229885, 75.9493670886076, 87.67123287671232, 80.28169014084507, 88.1578947368421]
+Precision list: [91.8918918918919, 92.20779220779221, 93.75, 86.48648648648648, 91.93548387096774, 88.1578947368421]
+F1  score list: [91.2751677852349, 86.58536585365853, 83.91608391608392, 87.07482993197279, 85.71428571428572, 88.1578947368421]
+	Average Accuracy: 88.19875776397515 
+      Average Specificity: 84.0560078186621 
+      Average Recall: 92.08827861867466
+      Average Precision:90.73825819899675
+      Average F1 score 87.12060465634632
+      
+___________________________________________
+Filename:MDVR_all_features_chunks_SpontaneousDialogue.csv
+Model :lr
+Random State: 0
+___________________________________________
+	Average Accuracy: 83.35135135135135 
+      Average Specificity: 89.59756097560975 
+      Average Recall: 76.01680672268908
+      Average Precision:86.0968801313629
+      Average F1 score 80.67326490713587
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 87.12792792792791 
+      Average Specificity: 92.49169435215947 
+      Average Recall: 79.87903225806451
+      Average Precision:89.36856247201075
+      Average F1 score 84.19036401999506
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 86.86486486486487 
+      Average Specificity: 89.83739837398375 
+      Average Recall: 83.20855614973263
+      Average Precision:87.1228541573369
+      Average F1 score 85.01286153460066
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 86.6018018018018 
+      Average Specificity: 92.0 
+      Average Recall: 80.33613445378151
+      Average Precision:90.10980036297642
+      Average F1 score 84.62560669923684
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 84.71711711711713 
+      Average Specificity: 88.89743589743588 
+      Average Recall: 79.99999999999999
+      Average Precision:87.0915470494418
+      Average F1 score 82.94653334997902
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 83.13153153153152 
+      Average Specificity: 89.67073170731707 
+      Average Recall: 75.29411764705883
+      Average Precision:86.01790812110285
+      Average F1 score 80.12618261412861
+      
+Accuracy list: [87.5776397515528, 81.36645962732919, 80.12422360248446, 83.85093167701864, 83.85093167701864, 89.44099378881988]
+Recall list: [89.53488372093024, 91.8918918918919, 90.2439024390244, 86.36363636363636, 87.77777777777777, 91.76470588235294]
+Specificity list: [85.33333333333334, 72.41379310344827, 69.62025316455697, 80.82191780821918, 78.87323943661971, 86.8421052631579]
+Precision list: [87.67123287671232, 91.30434782608695, 87.3015873015873, 83.09859154929578, 83.5820895522388, 90.41095890410958]
+F1  score list: [86.4864864864865, 80.76923076923076, 77.46478873239438, 81.94444444444444, 81.15942028985505, 88.59060402684563]
+	Average Accuracy: 84.36853002070394 
+      Average Specificity: 78.98410701822256 
+      Average Recall: 89.59613301260227
+      Average Precision:87.22813466833846
+      Average F1 score 82.73582912487613
+      
+___________________________________________
+Filename:MDVR_all_features_chunks_SpontaneousDialogue.csv
+Model :knn
+Random State: 0
+___________________________________________
+	Average Accuracy: 90.07927927927929 
+      Average Specificity: 91.07317073170732 
+      Average Recall: 88.90756302521008
+      Average Precision:89.39482381417865
+      Average F1 score 89.07817842856207
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 88.75675675675674 
+      Average Specificity: 93.92026578073092 
+      Average Recall: 81.7741935483871
+      Average Precision:90.94142409314824
+      Average F1 score 85.94485497733476
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 91.16396396396397 
+      Average Specificity: 90.30197444831592 
+      Average Recall: 92.22816399286987
+      Average Precision:88.65319100613218
+      Average F1 score 90.38692205913267
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 90.36756756756756 
+      Average Specificity: 89.5 
+      Average Recall: 91.34453781512606
+      Average Precision:88.77777777777779
+      Average F1 score 89.81238860641847
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 91.42342342342343 
+      Average Specificity: 90.91025641025641 
+      Average Recall: 92.0
+      Average Precision:90.1078451723613
+      Average F1 score 90.89288051541573
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 88.19459459459458 
+      Average Specificity: 89.6219512195122 
+      Average Recall: 86.47058823529412
+      Average Precision:87.62844093014871
+      Average F1 score 86.97596778075084
+      
+Accuracy list: [92.54658385093167, 84.472049689441, 87.5776397515528, 91.92546583850931, 88.81987577639751, 93.7888198757764]
+Recall list: [89.53488372093024, 90.54054054054053, 93.90243902439023, 93.18181818181817, 91.11111111111111, 94.11764705882352]
+Specificity list: [96.0, 79.3103448275862, 81.0126582278481, 90.41095890410958, 85.91549295774648, 93.42105263157895]
+Precision list: [88.88888888888889, 90.78947368421053, 92.7536231884058, 91.66666666666666, 88.40579710144928, 93.42105263157895]
+F1  score list: [92.30769230769229, 84.66257668711657, 86.4864864864865, 91.03448275862067, 87.14285714285715, 93.42105263157893]
+	Average Accuracy: 89.85507246376811 
+      Average Specificity: 87.67841792481157 
+      Average Recall: 92.0647399396023
+      Average Precision:90.98758369353335
+      Average F1 score 89.17585800239202
+      
+___________________________________________
+Filename:MDVR_all_features_ReadText.csv
+Model :svc
+Random State: 0
+___________________________________________
+	Average Accuracy: 86.88888888888889 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 75.0
+      Average Precision:90.0
+      Average F1 score 78.57142857142858
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 89.55555555555557 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 81.66666666666666
+      Average Precision:92.0
+      Average F1 score 85.33333333333334
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 86.66666666666666 
+      Average Specificity: 93.33333333333334 
+      Average Recall: 73.33333333333333
+      Average Precision:88.33333333333333
+      Average F1 score 76.47619047619048
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 89.11111111111111 
+      Average Specificity: 96.66666666666667 
+      Average Recall: 76.66666666666666
+      Average Precision:95.0
+      Average F1 score 81.42857142857143
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 80.0 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 63.333333333333336
+      Average Precision:90.0
+      Average F1 score 69.9047619047619
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 89.11111111111111 
+      Average Specificity: 93.33333333333334 
+      Average Recall: 81.66666666666666
+      Average Precision:91.0
+      Average F1 score 82.06349206349206
+      
+Accuracy list: [95.23809523809523, 95.23809523809523, 85.71428571428571, 66.66666666666666, 80.95238095238095, 80.95238095238095]
+Recall list: [90.9090909090909, 91.66666666666666, 100.0, 91.66666666666666, 92.85714285714286, 84.61538461538461]
+Specificity list: [100.0, 100.0, 70.0, 33.33333333333333, 57.14285714285714, 75.0]
+Precision list: [90.9090909090909, 90.0, 100.0, 75.0, 80.0, 75.0]
+F1  score list: [95.23809523809523, 94.73684210526316, 82.3529411764706, 46.153846153846146, 66.66666666666666, 75.0]
+	Average Accuracy: 84.12698412698411 
+      Average Specificity: 72.57936507936508 
+      Average Recall: 91.95249195249197
+      Average Precision:85.15151515151514
+      Average F1 score 76.69139855672363
+      
+___________________________________________
+Filename:MDVR_all_features_ReadText.csv
+Model :lr
+Random State: 0
+___________________________________________
+	Average Accuracy: 71.77777777777779 
+      Average Specificity: 80.0 
+      Average Recall: 58.333333333333336
+      Average Precision:56.666666666666664
+      Average F1 score 51.17460317460317
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 78.66666666666666 
+      Average Specificity: 96.66666666666667 
+      Average Recall: 46.666666666666664
+      Average Precision:90.0
+      Average F1 score 59.80952380952382
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 78.22222222222221 
+      Average Specificity: 86.66666666666667 
+      Average Recall: 63.333333333333336
+      Average Precision:76.66666666666666
+      Average F1 score 67.42857142857142
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 84.88888888888889 
+      Average Specificity: 93.33333333333334 
+      Average Recall: 70.0
+      Average Precision:88.33333333333333
+      Average F1 score 77.47619047619047
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 72.44444444444446 
+      Average Specificity: 78.66666666666667 
+      Average Recall: 65.0
+      Average Precision:68.33333333333333
+      Average F1 score 65.71428571428571
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 82.66666666666667 
+      Average Specificity: 90.0 
+      Average Recall: 70.0
+      Average Precision:86.66666666666666
+      Average F1 score 73.61904761904762
+      
+Accuracy list: [66.66666666666666, 90.47619047619048, 80.95238095238095, 66.66666666666666, 95.23809523809523, 85.71428571428571]
+Recall list: [72.72727272727273, 100.0, 100.0, 100.0, 92.85714285714286, 100.0]
+Specificity list: [60.0, 77.77777777777779, 60.0, 22.22222222222222, 100.0, 62.5]
+Precision list: [66.66666666666666, 100.0, 100.0, 100.0, 87.5, 100.0]
+F1  score list: [63.1578947368421, 87.50000000000001, 75.0, 36.36363636363636, 93.33333333333333, 76.92307692307692]
+	Average Accuracy: 80.95238095238095 
+      Average Specificity: 63.75 
+      Average Recall: 94.26406926406928
+      Average Precision:92.3611111111111
+      Average F1 score 72.04632355948145
+      
+___________________________________________
+Filename:MDVR_all_features_ReadText.csv
+Model :knn
+Random State: 0
+___________________________________________
+	Average Accuracy: 84.66666666666666 
+      Average Specificity: 93.33333333333334 
+      Average Recall: 66.66666666666666
+      Average Precision:76.0
+      Average F1 score 67.77777777777779
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 85.33333333333333 
+      Average Specificity: 90.0 
+      Average Recall: 76.66666666666666
+      Average Precision:83.33333333333333
+      Average F1 score 79.33333333333333
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 80.44444444444443 
+      Average Specificity: 100.0 
+      Average Recall: 43.33333333333333
+      Average Precision:80.0
+      Average F1 score 55.333333333333336
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 78.22222222222221 
+      Average Specificity: 90.0 
+      Average Recall: 56.666666666666664
+      Average Precision:79.99999999999999
+      Average F1 score 63.333333333333336
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 73.33333333333333 
+      Average Specificity: 100.0 
+      Average Recall: 36.666666666666664
+      Average Precision:80.0
+      Average F1 score 46.0
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 84.44444444444446 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 70.0
+      Average Precision:72.0
+      Average F1 score 69.28571428571429
+      
+Accuracy list: [80.95238095238095, 80.95238095238095, 85.71428571428571, 66.66666666666666, 71.42857142857143, 85.71428571428571]
+Recall list: [90.9090909090909, 91.66666666666666, 100.0, 91.66666666666666, 100.0, 100.0]
+Specificity list: [70.0, 66.66666666666666, 70.0, 33.33333333333333, 14.285714285714285, 62.5]
+Precision list: [87.5, 85.71428571428571, 100.0, 75.0, 100.0, 100.0]
+F1  score list: [77.77777777777777, 75.0, 82.3529411764706, 46.153846153846146, 25.0, 76.92307692307692]
+	Average Accuracy: 78.57142857142857 
+      Average Specificity: 52.797619047619044 
+      Average Recall: 95.70707070707071
+      Average Precision:91.36904761904763
+      Average F1 score 63.86794033852857
+      
+___________________________________________
+Filename:MDVR_all_features_SpontaneousDialogue.csv
+Model :svc
+Random State: 0
+___________________________________________
+	Average Accuracy: 92.0 
+      Average Specificity: 100.0 
+      Average Recall: 80.0
+      Average Precision:100.0
+      Average F1 score 86.66666666666667
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 62.0 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 20.0
+      Average Precision:30.0
+      Average F1 score 23.333333333333336
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 71.0 
+      Average Specificity: 79.99999999999999 
+      Average Recall: 50.0
+      Average Precision:60.0
+      Average F1 score 50.0
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 88.0 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 80.0
+      Average Precision:93.33333333333333
+      Average F1 score 82.66666666666667
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 67.0 
+      Average Specificity: 79.99999999999999 
+      Average Recall: 56.666666666666664
+      Average Precision:76.66666666666666
+      Average F1 score 61.333333333333336
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 71.0 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 50.0
+      Average Precision:86.66666666666666
+      Average F1 score 61.333333333333336
+      
+Accuracy list: [45.45454545454545, 90.9090909090909, 90.9090909090909, 45.45454545454545, 54.54545454545454, 72.72727272727273]
+Recall list: [83.33333333333334, 100.0, 100.0, 66.66666666666666, 66.66666666666666, 100.0]
+Specificity list: [0.0, 75.0, 80.0, 20.0, 0.0, 25.0]
+Precision list: [0.0, 100.0, 100.0, 33.33333333333333, 0.0, 100.0]
+F1  score list: [0, 85.71428571428571, 88.88888888888889, 24.999999999999996, 0, 40.0]
+	Average Accuracy: 66.66666666666667 
+      Average Specificity: 33.333333333333336 
+      Average Recall: 86.1111111111111
+      Average Precision:55.55555555555555
+      Average F1 score 39.93386243386243
+      
+___________________________________________
+Filename:MDVR_all_features_SpontaneousDialogue.csv
+Model :lr
+Random State: 0
+___________________________________________
+	Average Accuracy: 88.0 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 80.0
+      Average Precision:90.0
+      Average F1 score 83.33333333333334
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 63.0 
+      Average Specificity: 73.33333333333333 
+      Average Recall: 50.0
+      Average Precision:53.33333333333333
+      Average F1 score 49.333333333333336
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 54.0 
+      Average Specificity: 66.66666666666666 
+      Average Recall: 30.0
+      Average Precision:36.666666666666664
+      Average F1 score 31.333333333333332
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 92.0 
+      Average Specificity: 100.0 
+      Average Recall: 80.0
+      Average Precision:100.0
+      Average F1 score 86.66666666666667
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 76.0 
+      Average Specificity: 73.33333333333333 
+      Average Recall: 83.33333333333333
+      Average Precision:76.66666666666666
+      Average F1 score 77.33333333333334
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 50.0 
+      Average Specificity: 56.666666666666664 
+      Average Recall: 40.0
+      Average Precision:41.666666666666664
+      Average F1 score 38.0
+      
+Accuracy list: [45.45454545454545, 90.9090909090909, 81.81818181818183, 45.45454545454545, 45.45454545454545, 81.81818181818183]
+Recall list: [66.66666666666666, 85.71428571428571, 83.33333333333334, 66.66666666666666, 55.55555555555556, 85.71428571428571]
+Specificity list: [20.0, 100.0, 80.0, 20.0, 0.0, 75.0]
+Precision list: [33.33333333333333, 80.0, 80.0, 33.33333333333333, 0.0, 75.0]
+F1  score list: [24.999999999999996, 88.88888888888889, 80.0, 24.999999999999996, 0, 75.0]
+	Average Accuracy: 65.15151515151514 
+      Average Specificity: 49.166666666666664 
+      Average Recall: 73.94179894179894
+      Average Precision:50.27777777777777
+      Average F1 score 48.98148148148149
+      
+___________________________________________
+Filename:MDVR_all_features_SpontaneousDialogue.csv
+Model :knn
+Random State: 0
+___________________________________________
+	Average Accuracy: 84.0 
+      Average Specificity: 100.0 
+      Average Recall: 60.0
+      Average Precision:80.0
+      Average F1 score 66.66666666666667
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 71.0 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 50.0
+      Average Precision:63.333333333333336
+      Average F1 score 52.66666666666667
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 71.0 
+      Average Specificity: 79.99999999999999 
+      Average Recall: 50.0
+      Average Precision:60.0
+      Average F1 score 50.0
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 84.0 
+      Average Specificity: 100.0 
+      Average Recall: 60.0
+      Average Precision:60.0
+      Average F1 score 60.0
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 75.0 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 63.333333333333336
+      Average Precision:80.0
+      Average F1 score 69.33333333333334
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 54.0 
+      Average Specificity: 80.0 
+      Average Recall: 20.0
+      Average Precision:16.666666666666664
+      Average F1 score 18.0
+      
+Accuracy list: [54.54545454545454, 100.0, 90.9090909090909, 54.54545454545454, 54.54545454545454, 63.63636363636363]
+Recall list: [100.0, 100.0, 100.0, 83.33333333333334, 66.66666666666666, 85.71428571428571]
+Specificity list: [0.0, 100.0, 80.0, 20.0, 0.0, 25.0]
+Precision list: [0, 100.0, 100.0, 50.0, 0.0, 50.0]
+F1  score list: [0, 100.0, 88.88888888888889, 28.571428571428573, 0, 33.333333333333336]
+	Average Accuracy: 69.6969696969697 
+      Average Specificity: 37.5 
+      Average Recall: 89.28571428571428
+      Average Precision:50.0
+      Average F1 score 41.798941798941804
+      
+___________________________________________
+Filename:MDVR_all_features_chunks_ReadText.csv
+Model :svc
+Random State: 0
+___________________________________________
+	Average Accuracy: 94.07979407979408 
+      Average Specificity: 96.27329192546584 
+      Average Recall: 90.40650406504065
+      Average Precision:93.52297768151428
+      Average F1 score 91.889838914802
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 93.17728442728443 
+      Average Specificity: 94.03219315895373 
+      Average Recall: 91.70731707317074
+      Average Precision:90.30775609036479
+      Average F1 score 90.8716832854438
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 94.07818532818533 
+      Average Specificity: 95.35805626598466 
+      Average Recall: 92.00442967884828
+      Average Precision:92.50095642435772
+      Average F1 score 92.18355750299608
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 94.96943371943371 
+      Average Specificity: 95.94202898550725 
+      Average Recall: 93.38870431893687
+      Average Precision:93.55066665960177
+      Average F1 score 93.38875261411701
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 94.07014157014157 
+      Average Specificity: 95.43661971830986 
+      Average Recall: 91.73054587688735
+      Average Precision:92.26446226446225
+      Average F1 score 91.91181170304559
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 93.53764478764478 
+      Average Specificity: 94.3460764587525 
+      Average Recall: 92.10975609756098
+      Average Precision:90.42350757325232
+      Average F1 score 91.20110149451043
+      
+Accuracy list: [90.41666666666667, 95.0, 92.5, 93.33333333333333, 95.0, 94.16666666666667]
+Recall list: [94.70198675496688, 98.64864864864865, 93.58974358974359, 94.83870967741936, 96.64429530201343, 95.2054794520548]
+Specificity list: [83.14606741573034, 89.13043478260869, 90.47619047619048, 90.58823529411765, 92.3076923076923, 92.5531914893617]
+Precision list: [90.2439024390244, 97.61904761904762, 88.37209302325581, 90.58823529411765, 94.3820224719101, 92.5531914893617]
+F1  score list: [86.54970760233918, 93.18181818181817, 89.41176470588235, 90.58823529411765, 93.33333333333333, 92.55319148936168]
+	Average Accuracy: 93.40277777777777 
+      Average Specificity: 89.7003019609502 
+      Average Recall: 95.60481057080779
+      Average Precision:92.29308205611954
+      Average F1 score 90.93634176780874
+      
+___________________________________________
+Filename:MDVR_all_features_chunks_ReadText.csv
+Model :lr
+Random State: 0
+___________________________________________
+	Average Accuracy: 85.47136422136421 
+      Average Specificity: 91.39544513457557 
+      Average Recall: 75.50522648083624
+      Average Precision:84.14522163359372
+      Average F1 score 79.49824456741415
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 82.9456241956242 
+      Average Specificity: 90.3420523138833 
+      Average Recall: 70.2439024390244
+      Average Precision:81.11280591641123
+      Average F1 score 75.11975308641976
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 84.23012298012299 
+      Average Specificity: 90.99744245524298 
+      Average Recall: 73.26442721791558
+      Average Precision:83.67396183801108
+      Average F1 score 77.90262354486349
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 82.02452452452454 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 74.46536237233911
+      Average Precision:77.47301094669517
+      Average F1 score 75.7785767523063
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 84.20205920205919 
+      Average Specificity: 89.44869215291752 
+      Average Recall: 75.21486643437865
+      Average Precision:81.91832864013314
+      Average F1 score 78.00305239420946
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 85.81241956241958 
+      Average Specificity: 90.65995975855131 
+      Average Recall: 77.31707317073172
+      Average Precision:82.97715177006245
+      Average F1 score 79.86200106408346
+      
+Accuracy list: [85.0, 83.75, 84.58333333333333, 89.16666666666667, 84.58333333333333, 83.33333333333334]
+Recall list: [91.3907284768212, 92.56756756756756, 89.74358974358975, 92.90322580645162, 91.94630872483222, 89.72602739726028]
+Specificity list: [74.15730337078652, 69.56521739130434, 75.0, 82.35294117647058, 72.52747252747253, 73.40425531914893]
+Precision list: [83.54430379746836, 85.33333333333334, 79.74683544303798, 86.41975308641975, 84.61538461538461, 82.14285714285714]
+F1  score list: [78.57142857142857, 76.64670658682634, 77.30061349693251, 84.33734939759036, 78.10650887573965, 77.52808988764046]
+	Average Accuracy: 85.06944444444444 
+      Average Specificity: 74.5011982975305 
+      Average Recall: 91.37957461942044
+      Average Precision:83.63374456975019
+      Average F1 score 78.74844946935964
+      
+___________________________________________
+Filename:MDVR_all_features_chunks_ReadText.csv
+Model :knn
+Random State: 0
+___________________________________________
+	Average Accuracy: 95.3362290862291 
+      Average Specificity: 96.27329192546584 
+      Average Recall: 93.7746806039489
+      Average Precision:93.76948632762586
+      Average F1 score 93.73885207809138
+      
+Random State: 5
+___________________________________________
+	Average Accuracy: 92.81692406692406 
+      Average Specificity: 95.74245472837022 
+      Average Recall: 87.8048780487805
+      Average Precision:92.51288848657268
+      Average F1 score 89.98620158510951
+      
+Random State: 13
+___________________________________________
+	Average Accuracy: 94.25353925353924 
+      Average Specificity: 95.05115089514068 
+      Average Recall: 92.94573643410854
+      Average Precision:92.22407379353297
+      Average F1 score 92.54108510504884
+      
+Random State: 27
+___________________________________________
+	Average Accuracy: 95.15444015444015 
+      Average Specificity: 95.36231884057972 
+      Average Recall: 94.8172757475083
+      Average Precision:92.77774640818117
+      Average F1 score 93.73011182323634
+      
+Random State: 36
+___________________________________________
+	Average Accuracy: 95.14800514800515 
+      Average Specificity: 95.44064386317908 
+      Average Recall: 94.63414634146342
+      Average Precision:92.51429830701822
+      Average F1 score 93.49919833253166
+      
+Random State: 42
+___________________________________________
+	Average Accuracy: 93.71782496782497 
+      Average Specificity: 94.62776659959759 
+      Average Recall: 92.10975609756098
+      Average Precision:90.98890604957339
+      Average F1 score 91.40345080531438
+      
+Accuracy list: [93.75, 95.0, 93.75, 93.33333333333333, 93.33333333333333, 93.75]
+Recall list: [95.36423841059603, 97.2972972972973, 95.51282051282051, 94.19354838709677, 95.9731543624161, 95.8904109589041]
+Specificity list: [91.01123595505618, 91.30434782608695, 90.47619047619048, 91.76470588235294, 89.01098901098901, 90.42553191489363]
+Precision list: [92.04545454545455, 95.45454545454545, 91.56626506024097, 89.65517241379311, 93.10344827586206, 93.4065934065934]
+F1  score list: [91.52542372881355, 93.33333333333334, 91.01796407185628, 90.69767441860463, 91.01123595505618, 91.89189189189189]
+	Average Accuracy: 93.81944444444444 
+      Average Specificity: 90.66550017759486 
+      Average Recall: 95.70524498818845
+      Average Precision:92.53857985941494
+      Average F1 score 91.57958723325932
+      

@@ -1,0 +1,504 @@
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :svc
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('svc', SVC(C=10, gamma=0.001))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'svc': SVC(C=10, gamma=0.001), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'svc__C': 10, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.001, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 86.0 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 86.66666666666666
+      Average Precision:88.33333333333333
+      Average F1 score 85.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 50.0 
+    Recall: 71.42857142857143
+    Precision:50.0
+    F1 score 50.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :svc
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('svc', SVC(C=100, gamma=0.1))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'svc': SVC(C=100, gamma=0.1), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'svc__C': 100, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.1, 'svc__kernel': 'rbf', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 64.66666666666666 
+      Average Specificity: 83.33333333333333 
+      Average Recall: 46.666666666666664
+      Average Precision:63.333333333333336
+      Average F1 score 51.33333333333333
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 75.0 
+    Recall: 42.857142857142854
+    Precision:42.857142857142854
+    F1 score 54.54545454545454
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :svc
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 1, 'kernel': 'poly', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 75.0 
+    Recall: 57.14285714285714
+    Precision:50.0
+    F1 score 60.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :lr
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('lr', LogisticRegression(C=100, solver='liblinear'))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'lr': LogisticRegression(C=100, solver='liblinear'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l2', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 86.0 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 86.66666666666666
+      Average Precision:88.33333333333333
+      Average F1 score 85.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 72.72727272727273 
+    Specificity: 50.0 
+    Recall: 85.71428571428571
+    Precision:66.66666666666666
+    F1 score 57.14285714285714
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :lr
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('lr', LogisticRegression(C=100, penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'lr': LogisticRegression(C=100, penalty='l1', solver='liblinear'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 61.333333333333336 
+      Average Specificity: 76.66666666666666 
+      Average Recall: 46.666666666666664
+      Average Precision:70.0
+      Average F1 score 54.0
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 50.0 
+    Recall: 71.42857142857143
+    Precision:50.0
+    F1 score 50.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :lr
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 100, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 50.0 
+    Recall: 71.42857142857143
+    Precision:50.0
+    F1 score 50.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :knn
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.9)), ('knn', KNeighborsClassifier(metric='euclidean', weights='distance'))], 'verbose': False, 'reducer': PCA(n_components=0.9), 'knn': KNeighborsClassifier(metric='euclidean', weights='distance'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.9, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 5, 'knn__p': 2, 'knn__weights': 'distance'}
+	Average Accuracy: 90.0 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 86.66666666666666
+      Average Precision:90.0
+      Average F1 score 88.0
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 25.0 
+    Recall: 85.71428571428571
+    Precision:50.0
+    F1 score 33.333333333333336
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :knn
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('knn', KNeighborsClassifier(metric='euclidean'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'knn': KNeighborsClassifier(metric='euclidean'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 5, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 64.66666666666666 
+      Average Specificity: 90.0 
+      Average Recall: 40.0
+      Average Precision:70.0
+      Average F1 score 48.0
+      
+___________________
+Evaluate model
+	Accuracy: 36.36363636363637 
+    Specificity: 50.0 
+    Recall: 28.57142857142857
+    Precision:28.57142857142857
+    F1 score 36.36363636363636
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :knn
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 1, 'p': 2, 'weights': 'uniform'}
+	Average Accuracy: 100.0 
+      Average Specificity: 100.0 
+      Average Recall: 100.0
+      Average Precision:100.0
+      Average F1 score 100.0
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 50.0 
+    Recall: 71.42857142857143
+    Precision:50.0
+    F1 score 50.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :rf
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('rf', RandomForestClassifier(max_depth=6, max_features='auto'))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'rf': RandomForestClassifier(max_depth=6, max_features='auto'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 6, 'rf__max_features': 'auto', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 63.407407407407405 
+      Average Specificity: 67.77777777777777 
+      Average Recall: 61.481481481481474
+      Average Precision:63.18518518518518
+      Average F1 score 57.08465608465609
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 75.0 
+    Recall: 57.14285714285714
+    Precision:50.0
+    F1 score 60.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :rf
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('rf', RandomForestClassifier(criterion='entropy', max_depth=5, n_estimators=200))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'rf': RandomForestClassifier(criterion='entropy', max_depth=5, n_estimators=200), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'entropy', 'rf__max_depth': 5, 'rf__max_features': 'sqrt', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 200, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 56.37037037037037 
+      Average Specificity: 51.481481481481474 
+      Average Recall: 62.59259259259258
+      Average Precision:57.77777777777778
+      Average F1 score 58.66666666666666
+      
+___________________
+Evaluate model
+	Accuracy: 36.36363636363637 
+    Specificity: 75.0 
+    Recall: 14.285714285714285
+    Precision:33.33333333333333
+    F1 score 46.153846153846146
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_gpt_embeddings_transformed.csv
+Model :rf
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 94.74074074074073 
+      Average Specificity: 96.29629629629629 
+      Average Recall: 93.33333333333333
+      Average Precision:96.29629629629629
+      Average F1 score 94.37037037037037
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 50.0 
+    Recall: 57.14285714285714
+    Precision:40.0
+    F1 score 44.44444444444444
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :svc
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.9)), ('svc', SVC(C=0.1, gamma=0.1, kernel='poly'))], 'verbose': False, 'reducer': PCA(n_components=0.9), 'svc': SVC(C=0.1, gamma=0.1, kernel='poly'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.9, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'svc__C': 0.1, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 0.1, 'svc__kernel': 'poly', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 69.33333333333333 
+      Average Specificity: 73.33333333333333 
+      Average Recall: 66.66666666666666
+      Average Precision:81.33333333333333
+      Average F1 score 66.0
+      
+___________________
+Evaluate model
+	Accuracy: 72.72727272727273 
+    Specificity: 25.0 
+    Recall: 100.0
+    Precision:100.0
+    F1 score 40.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :svc
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('svc', SVC(C=100, gamma=1, kernel='sigmoid'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'svc': SVC(C=100, gamma=1, kernel='sigmoid'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'svc__C': 100, 'svc__break_ties': False, 'svc__cache_size': 200, 'svc__class_weight': None, 'svc__coef0': 0.0, 'svc__decision_function_shape': 'ovr', 'svc__degree': 3, 'svc__gamma': 1, 'svc__kernel': 'sigmoid', 'svc__max_iter': -1, 'svc__probability': False, 'svc__random_state': None, 'svc__shrinking': True, 'svc__tol': 0.001, 'svc__verbose': False}
+	Average Accuracy: 60.666666666666664 
+      Average Specificity: 59.999999999999986 
+      Average Recall: 60.0
+      Average Precision:55.33333333333333
+      Average F1 score 56.33333333333333
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 75.0 
+    Recall: 42.857142857142854
+    Precision:42.857142857142854
+    F1 score 54.54545454545454
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :svc
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 1, 'kernel': 'poly', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+	Average Accuracy: 89.33333333333334 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 93.33333333333333
+      Average Precision:88.33333333333333
+      Average F1 score 89.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 50.0 
+    Recall: 57.14285714285714
+    Precision:40.0
+    F1 score 44.44444444444444
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :lr
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('lr', LogisticRegression(C=100, penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'lr': LogisticRegression(C=100, penalty='l1', solver='liblinear'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 61.333333333333336 
+      Average Specificity: 63.333333333333336 
+      Average Recall: 60.0
+      Average Precision:65.0
+      Average F1 score 56.47619047619048
+      
+___________________
+Evaluate model
+	Accuracy: 81.81818181818183 
+    Specificity: 50.0 
+    Recall: 100.0
+    Precision:100.0
+    F1 score 66.66666666666667
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :lr
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('lr', LogisticRegression(C=100, penalty='l1', solver='liblinear'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'lr': LogisticRegression(C=100, penalty='l1', solver='liblinear'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'lr__C': 100, 'lr__class_weight': None, 'lr__dual': False, 'lr__fit_intercept': True, 'lr__intercept_scaling': 1, 'lr__l1_ratio': None, 'lr__max_iter': 100, 'lr__multi_class': 'auto', 'lr__n_jobs': None, 'lr__penalty': 'l1', 'lr__random_state': None, 'lr__solver': 'liblinear', 'lr__tol': 0.0001, 'lr__verbose': 0, 'lr__warm_start': False}
+	Average Accuracy: 62.0 
+      Average Specificity: 66.66666666666666 
+      Average Recall: 60.0
+      Average Precision:66.66666666666666
+      Average F1 score 58.0
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 25.0 
+    Recall: 71.42857142857143
+    Precision:33.33333333333333
+    F1 score 28.57142857142857
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :lr
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'C': 100, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 92.66666666666667 
+      Average Specificity: 93.33333333333333 
+      Average Recall: 93.33333333333333
+      Average Precision:93.33333333333333
+      Average F1 score 92.0
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 25.0 
+    Recall: 71.42857142857143
+    Precision:33.33333333333333
+    F1 score 28.57142857142857
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :knn
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.95)), ('knn', KNeighborsClassifier(metric='euclidean', n_neighbors=3))], 'verbose': False, 'reducer': PCA(n_components=0.95), 'knn': KNeighborsClassifier(metric='euclidean', n_neighbors=3), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.95, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 3, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 78.66666666666667 
+      Average Specificity: 73.33333333333333 
+      Average Recall: 86.66666666666666
+      Average Precision:75.0
+      Average F1 score 78.47619047619048
+      
+___________________
+Evaluate model
+	Accuracy: 36.36363636363637 
+    Specificity: 50.0 
+    Recall: 28.57142857142857
+    Precision:28.57142857142857
+    F1 score 36.36363636363636
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :knn
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('knn', KNeighborsClassifier(metric='euclidean'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'knn': KNeighborsClassifier(metric='euclidean'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'knn__algorithm': 'auto', 'knn__leaf_size': 30, 'knn__metric': 'euclidean', 'knn__metric_params': None, 'knn__n_jobs': None, 'knn__n_neighbors': 5, 'knn__p': 2, 'knn__weights': 'uniform'}
+	Average Accuracy: 54.666666666666664 
+      Average Specificity: 59.999999999999986 
+      Average Recall: 53.33333333333333
+      Average Precision:56.666666666666664
+      Average F1 score 52.0
+      
+___________________
+Evaluate model
+	Accuracy: 63.63636363636363 
+    Specificity: 25.0 
+    Recall: 85.71428571428571
+    Precision:50.0
+    F1 score 33.333333333333336
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :knn
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 1, 'p': 2, 'weights': 'uniform'}
+	Average Accuracy: 92.66666666666667 
+      Average Specificity: 86.66666666666666 
+      Average Recall: 100.0
+      Average Precision:88.33333333333333
+      Average F1 score 93.14285714285714
+      
+___________________
+Evaluate model
+	Accuracy: 72.72727272727273 
+    Specificity: 75.0 
+    Recall: 71.42857142857143
+    Precision:60.0
+    F1 score 66.66666666666667
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :rf
+Reducer:pca
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', PCA(n_components=0.8)), ('rf', RandomForestClassifier(max_depth=5, max_features='auto'))], 'verbose': False, 'reducer': PCA(n_components=0.8), 'rf': RandomForestClassifier(max_depth=5, max_features='auto'), 'reducer__copy': True, 'reducer__iterated_power': 'auto', 'reducer__n_components': 0.8, 'reducer__n_oversamples': 10, 'reducer__power_iteration_normalizer': 'auto', 'reducer__random_state': None, 'reducer__svd_solver': 'auto', 'reducer__tol': 0.0, 'reducer__whiten': False, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 5, 'rf__max_features': 'auto', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 59.18518518518518 
+      Average Specificity: 54.44444444444444 
+      Average Recall: 66.66666666666666
+      Average Precision:60.18518518518518
+      Average F1 score 60.03174603174604
+      
+___________________
+Evaluate model
+	Accuracy: 45.45454545454545 
+    Specificity: 50.0 
+    Recall: 42.857142857142854
+    Precision:33.33333333333333
+    F1 score 40.0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :rf
+Reducer:lda
+Sentence?:False
+___________________________________________
+{'memory': None, 'steps': [('reducer', LinearDiscriminantAnalysis(n_components=1)), ('rf', RandomForestClassifier(max_depth=4, max_features='auto'))], 'verbose': False, 'reducer': LinearDiscriminantAnalysis(n_components=1), 'rf': RandomForestClassifier(max_depth=4, max_features='auto'), 'reducer__covariance_estimator': None, 'reducer__n_components': 1, 'reducer__priors': None, 'reducer__shrinkage': None, 'reducer__solver': 'svd', 'reducer__store_covariance': False, 'reducer__tol': 0.0001, 'rf__bootstrap': True, 'rf__ccp_alpha': 0.0, 'rf__class_weight': None, 'rf__criterion': 'gini', 'rf__max_depth': 4, 'rf__max_features': 'auto', 'rf__max_leaf_nodes': None, 'rf__max_samples': None, 'rf__min_impurity_decrease': 0.0, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__min_weight_fraction_leaf': 0.0, 'rf__n_estimators': 100, 'rf__n_jobs': None, 'rf__oob_score': False, 'rf__random_state': None, 'rf__verbose': 0, 'rf__warm_start': False}
+	Average Accuracy: 48.0 
+      Average Specificity: 53.33333333333333 
+      Average Recall: 46.666666666666664
+      Average Precision:46.666666666666664
+      Average F1 score 44.0
+      
+___________________
+Evaluate model
+	Accuracy: 54.54545454545454 
+    Specificity: 0.0 
+    Recall: 85.71428571428571
+    Precision:0.0
+    F1 score 0
+    
+___________________________________________
+Filename:spontaneousDialogueOnly_wav2vec_bert_embeddings_transformed.csv
+Model :rf
+Reducer:mrmr
+Sentence?:False
+___________________________________________
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+	Average Accuracy: 81.03703703703704 
+      Average Specificity: 79.99999999999999 
+      Average Recall: 82.96296296296296
+      Average Precision:83.51851851851852
+      Average F1 score 80.70899470899471
+      
+___________________
+Evaluate model
+	Accuracy: 72.72727272727273 
+    Specificity: 25.0 
+    Recall: 100.0
+    Precision:100.0
+    F1 score 40.0
+    
