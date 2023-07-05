@@ -10,16 +10,14 @@ def extra_print(text):
 
 outpath = "/Users/athena.kam/Documents/Thesis/codebase/thesis-2023-athena/results"
 
-path = (
-    "/Users/athena.kam/Documents/Thesis/codebase/thesis-2023-athena/datasets/audio_data"
-)
+path = "/Users/athena.kam/Documents/Thesis/codebase/thesis-2023-athena/datasets/readtext_concat"
 
 directory = os.fsencode(path)
 os.chdir(path)
 
 model_names = ["svc", "lr", "knn", "rf"]
 
-out_filename = "results_audio_data_4.csv"
+out_filename = "results_audio_data_readTextConcat.csv"
 out_filepath = os.path.join(outpath, out_filename)
 
 sys.stout = open(out_filepath, "w")
